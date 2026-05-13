@@ -105,3 +105,5 @@ Strings: == , = , -z=null or char [ -z $a ], !=
 # more dynamic ( becoz we want to give my script some power take input from user)
 1. cmd args --> bash cond.sh 20 [Postional args or values]
 2. read --> read $a
+
+last cmd success or not = echo $? =0 = success

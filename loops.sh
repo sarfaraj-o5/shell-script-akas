@@ -14,7 +14,15 @@
 #     some cmds
 # done
 
-for (( i=1 ; i<=10 ; i++))
-do
-    Hello "World got printed $1 times"
+# print all the no. upto 10
+# c type
+
+# for (( i=1 ; i<=10 ; i++))
+# do
+#     echo "Hello World got printed $i times"
+# done
+
+for fruit in apple banana mango ;
+do 
+   echo Fruit - $fruit
 done
