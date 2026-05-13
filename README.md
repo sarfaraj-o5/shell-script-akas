@@ -107,3 +107,7 @@ Strings: == , = , -z=null or char [ -z $a ], !=
 2. read --> read $a
 
 last cmd success or not = echo $? =0 = success
+
+sudo set-prompt frontend
+sudo set-prompt backend
+sudo set-prompt mysql
