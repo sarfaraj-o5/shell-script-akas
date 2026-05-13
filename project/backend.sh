@@ -10,6 +10,8 @@ dnf install nodejs -y
 # add app user
 useradd expense
 cp backend.service /etc/systemd/system/backend.service
+
+rm -rf /app
 mkdir /app
 
 # download front end content
