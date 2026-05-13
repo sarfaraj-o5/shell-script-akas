@@ -1,11 +1,13 @@
 #!/bin/bash
 
+source common.sh
 ## BACKEND
 nodejs 20+
 
 dnf module disable nodejs -y
 dnf module enable nodejs:20 -y
 dnf install nodejs -y
+Check_Status $?
 
 # add app user
 useradd expense
